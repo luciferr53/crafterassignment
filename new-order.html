@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Freshii Meal Box</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <script src="//www.digitalmarketingbox.com/unoapp/js/jquery.webinquiry-freshii.js"></script>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <div class="top-banner">
+        <div class="navigation-wrapper">
+            <div class="navigation-item">
+                <a class="logo" href="index.html">
+                    <img class="desktop" src="assets/img/logo_freshii-mealbox-desktop.png" alt="Freshii Mealbox">
+                    <img class="mobile" src="assets/img/logo_freshii-mealbox-mobile.png" alt="Freshii Mealbox" style="display: none;">
+                </a>
+            </div>
+            <div class="navigation-item right">
+                <a class="nav-works " href="how-it-works.html">HOW IT WORKS</a>
+                <a class="nav-boxes selected" href="new-order.html">BOXES</a>
+                <a class="nav-faq " href="faq.html">F.A.Q</a>
+                <a class="nav-fitness " href="fitness-pros.html">FITNESS PROS</a>
+                <a class="nav-contact " href="contact.html">CONTACT</a>
+            </div>
+            <div class="mobile-nav">
+                <a class="nav-works " href="how-it-works.html">HOW IT WORKS</a>
+                <a class="nav-boxes-clean hover-green  selected" href="new-order.html">CLEAN BOX</a>
+                <a class="nav-boxes-slim hover-yellow " href="new-order.html">SLIM BOX</a>
+                <a class="nav-boxes-bulk hover-blue " href="new-order.html">BULK BOX</a>
+                <a class="nav-boxes-gluten hover-purple " href="new-order.html">GLUTEN-FREE BOX</a>
+                <a class="nav-faq " href="faq.html">F.A.Q</a>
+                <a class="nav-fitness " href="fitness-pros.html">FITNESS PROS</a>
+                <a class="nav-contact " href="contact.html">CONTACT</a>
+            </div>
+        </div>
+        <div class="mobile-nav-btn">
+            <a href="#" id="resNavBtn" onclick="return false;">
+                <div id="resNavIcon" class="">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <style>
+        .footer-boxes {
+            display: none;
+        }
+
+        .twitter-section {
+            display: none;
+        }
+    </style>
+    <div class="box-nav">
+        <ul>
+            <li>
+                <a href="new-order.html" class="box-nav-item hover-green selected">
+                    Clean Box </a>
+            </li>
+            <!--
+			-->
+            <li>
+                <a href="new-order.html" class="box-nav-item hover-yellow ">
+                    Slim Box </a>
+            </li>
+            <!--
+			-->
+            <li>
+                <a href="new-order.html" class="box-nav-item hover-blue ">
+                    Bulk Box </a>
+            </li>
+            <!--
+			-->
+            <li>
+                <a href="new-order.html" class="box-nav-item hover-purple ">
+                    Gluten-Free Box </a>
+            </li>
+            <!--
+			-->
+            <li>
+                <a href="pdfs/Freshii_Meal_Box_Menu.pdf" target="_blank" class="box-nav-item">
+                    Download Order Form </a>
+            </li>
+        </ul>
+    </div>
+    <div class="order-wrapper">
+        <div class="order-box-details">
+            <div class="order-nav" style="display: none;">
+                <div class="order-nav-item">
+                    <span class="order-nav-button">Option 1</span>
+                </div>
+                <div class="order-nav-item">
+                    <span class="order-nav-button">Option 2</span>
+                </div>
+                <div class="order-nav-item">
+                    <span class="order-nav-button">Option 3</span>
+                </div>
+            </div>
+
+            <div class="box-content">
+                <div class="left-side mobile-hide">
+                    <img src="assets/img/clean-box-img.jpg">
+                </div>
+                <div class="right-side">
+                    <div class="order-content">
+                        <div class="h1 green">
+                            Clean Box </div>
+                        <!-- <div class="subheader2 green">
+							1700 - 1900 calories						</div> -->
+                        <div class="green">
+                            Designed for mindful eaters or those looking to clean up their diet. Meals and snacks are made up of whole foods that are
+                            nutrient dense and minimally processed. </div>
+                        <div class="subheader green">
+                            Option 1 </div>
+                        <div class="indent">
+                            <div class="row">
+                                <div class="bold">
+                                    Cranberry Almond Crunch Oatmeal - Breakfast </div>
+                                <div>
+                                    house-made oatmeal, dried cranberries, almonds </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Hard Boiled Eggs - Snack </div>
+                                <div>
+                                    two hard boiled eggs </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Zen Salad + Tofu - Lunch </div>
+                                <div>
+                                    spinach, romaine, tofu, edamame, cabbage, broccoli, carrots, mango, sesame seeds, asian sesame dressing </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Veggie Cup - Snack </div>
+                                <div>
+                                    cucumber, celery, cherry tomatoes, greek yogurt ranch </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Mediterranean Bowl + Falafel - Dinner </div>
+                                <div>
+                                    quinoa, field greens, falafel, feta cheese, kalamata olives, almonds, red onions, cucumber, roasted red peppers, tomatoes,
+                                    cilantro, red pepper sauce </div>
+                            </div>
+                        </div>
+                        <div class="subheader green">
+                            Option 2 </div>
+                        <div class="indent">
+                            <div class="row">
+                                <div class="bold">
+                                    Spinach, Mushroom & Cheese Breakfast Bowl - Breakfast </div>
+                                <div>
+                                    eggs, spinach, mushrooms, roasted red peppers, goat cheese </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Fruit Cup - Snack </div>
+                                <div>
+                                    pineapple, strawberries, mango </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Market Salad + Chicken - Lunch </div>
+                                <div>
+                                    field greens, spinach, quinoa, chicken, avocado, feta cheese, beet slaw, dried cranberries, green apple, carrots, honey dijon
+                                    dressing </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Bean & Corn Salad - Snack </div>
+                                <div>
+                                    black beans, edamame, corn, cherry tomatoes, cilantro lime vinaigrette </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Khao San Quinoa Bowl + Tofu - Dinner </div>
+                                <div>
+                                    quinoa, spinach, tofu, edamame, mushrooms, carrots, cabbage, almonds, spicy lemongrass sauce </div>
+                            </div>
+                        </div>
+                        <div class="subheader green">
+                            Option 3 </div>
+                        <div class="indent">
+                            <div class="row">
+                                <div class="bold">
+                                    Yogurt Parfait & Mighty Detox Juice - Breakfast </div>
+                                <div>
+                                    yogurt parfait: greek yogurt, granola, mango, strawberries mighty detox juice: pineapple, green apple, celery, cucumber,
+                                    ginger </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Village Salad - Snack </div>
+                                <div>
+                                    cucumbers, tomatoes, kalamata olives, feta cheese, cilantro lime vinaigrette </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Metaboost Salad + Chicken - Lunch </div>
+                                <div>
+                                    spinach, kale, field greens, chicken, goat cheese, mango, almonds, carrots, edamame, balsamic vinaigrette </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Apple & Walnuts - Snack </div>
+                                <div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="bold">
+                                    Superfood Soup + Chicken - Dinner </div>
+                                <div>
+                                    vegetable broth, chicken, quinoa, kale, broccoli, cabbage, carrots, celery, red onions </div>
+                            </div>
+                        </div>
+                        <div class="subheader green">
+                            *Menu may vary by region* </div>
+                    </div>
+                </div>
+                <div class="clear-fix"></div>
+            </div>
+        </div>
+    </div>
+    <div class="section white-background footer-boxes">
+        <div class="wrapper">
+            <div class="mealbox-table clear-fix">
+                <div class="mealbox-column">
+                    <img src="assets/img/clean-box.jpg" class="wide-image" alt="Clean Box">
+                    <div class="box green-box">
+                        <div class="h1">
+                            Clean Box </div>
+                        <div class="subheader">
+                            <div>
+                                Eat Clean </div>
+                            <!-- <div>
+															</div> -->
+                        </div>
+                        <div class="view-mealbox" style="display: none;">
+                            <a href="javascript:void(0);">View Clean Box</a>
+                        </div>
+                        <div class="mealbox-description">
+                            Designed for mindful eaters or those looking to clean up their diet. Meals and snacks are made up of whole foods that are
+                            nutrient dense and minimally processed. </div>
+                        <a href="new-order.html" class="order-button">
+                            <div class="order-button-content">
+                                View Clean Box </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mealbox-column">
+                    <img src="assets/img/slim-box-1.jpg" class="wide-image" alt="Slim Box">
+                    <div class="box yellow-box">
+                        <div class="h1">
+                            Slim Box </div>
+                        <div class="subheader">
+                            <div>
+                                Lose Weight </div>
+                            <!-- <div>
+															</div> -->
+                        </div>
+                        <div class="view-mealbox" style="display: none;">
+                            <a href="javascript:void(0);">View Slim Box</a>
+                        </div>
+                        <div class="mealbox-description">
+                            Designed for maximum weight loss with minimal deprivation. Meals and snacks focus on lean protein and high fiber foods that
+                            are low in calories and carbohydrates. </div>
+                        <a href="new-order.html" class="order-button">
+                            <div class="order-button-content">
+                                View Slim Box </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mealbox-column">
+                    <img src="assets/img/bulk-box.jpg" class="wide-image" alt="Bulk Box">
+                    <div class="box blue-box">
+                        <div class="h1">
+                            Bulk Box </div>
+                        <div class="subheader">
+                            <div>
+                                Build Muscle </div>
+                            <!-- <div>
+															</div> -->
+                        </div>
+                        <div class="view-mealbox" style="display: none;">
+                            <a href="javascript:void(0);">View Bulk Box</a>
+                        </div>
+                        <div class="mealbox-description">
+                            Designed for the everyday athlete, this box provides the optimal macronutrient balance to fuel high performance workouts
+                            and build muscle. Meals and snacks are high in calories, protein, and complex carbohydrates.
+                        </div>
+                        <a href="new-order.html" class="order-button">
+                            <div class="order-button-content">
+                                View Bulk Box </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mealbox-column">
+                    <img src="assets/img/gluten-free-box.jpg" class="wide-image" alt="Gluten-Free Box">
+                    <div class="box purple-box">
+                        <div class="h1">
+                            Gluten-Free Box </div>
+                        <div class="subheader">
+                            <div>
+                                Eliminate Wheat & Gluten </div>
+                            <!-- <div>
+															</div> -->
+                        </div>
+                        <div class="view-mealbox" style="display: none;">
+                            <a href="javascript:void(0);">View Gluten-Free Box</a>
+                        </div>
+                        <div class="mealbox-description">
+                            Designed for those who are gluten intolerant. Meals and snacks rely on wheat and gluten-free ingredients, while providing
+                            the appropriate balance of macronutrients to fuel your busy day. </div>
+                        <a href="new-order.html" class="order-button">
+                            <div class="order-button-content">
+                                View Gluten-Free Box </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay" style="display: none;"></div>
+    <div class="modal-close" style="display: none;">
+        <img src="assets/img/x-white.png" alt="Close Button">
+    </div>
+    <div class="modal" style="display: none;">
+        <div class="modal-content"></div>
+    </div>
+    <div class="footer-section eblast-section white-background">
+        <h2>Be in the know</h2>
+        <div class="paragraph" style="margin-bottom:15px;">
+            Sign up to get meal planning hacks, exclusive offers and more. </div>
+        <script type="text/javascript" src="https://form.jotform.com/jsform/62095465171255"></script>
+        <!-- <div id="find_my_eblast_widget_123288"></div> -->
+    </div>
+
+    <div class="footer-section social-section white-background">
+        <div class="footer-social">
+            <a href="http://instagram.com/freshii" target="_blank">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </div>
+        <div class="footer-social">
+            <a href="https://twitter.com/freshii" target="_blank">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/freshii" target="_blank">
+                <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="footer-section big-meal-box white-background">
+        #freshiimealbox
+    </div>
+</body>
+
+</html>

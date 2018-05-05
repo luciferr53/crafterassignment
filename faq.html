@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- new-order.html\?([a-z])+=([a-z])+ -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@
             <div class="navigation-item right">
                 <a class="nav-works " href="how-it-works.html">HOW IT WORKS</a>
                 <a class="nav-boxes " href="new-order.html">BOXES</a>
-                <a class="nav-faq " href="faq.html">F.A.Q</a>
+                <a class="nav-faq selected" href="faq.html">F.A.Q</a>
                 <a class="nav-fitness " href="fitness-pros.html">FITNESS PROS</a>
                 <a class="nav-contact " href="contact.html">CONTACT</a>
             </div>
@@ -35,7 +35,7 @@
                 <a class="nav-boxes-slim hover-yellow " href="new-order.html">SLIM BOX</a>
                 <a class="nav-boxes-bulk hover-blue " href="new-order.html">BULK BOX</a>
                 <a class="nav-boxes-gluten hover-purple " href="new-order.html">GLUTEN-FREE BOX</a>
-                <a class="nav-faq " href="faq.html">F.A.Q</a>
+                <a class="nav-faq selected" href="faq.html">F.A.Q</a>
                 <a class="nav-fitness " href="fitness-pros.html">FITNESS PROS</a>
                 <a class="nav-contact " href="contact.html">CONTACT</a>
             </div>
@@ -51,34 +51,53 @@
             </a>
         </div>
     </div>
-    <div class="home-banner">
-        <img src="assets/img/home_banner.jpg" alt="3 Meals. 2 Snacks. 1 Box.">
-        <div class="caption">
-            3 Meals.
-            <br>2 Snacks.
-            <br>1 Box. </div>
-        <div class="faded"></div>
-    </div>
-    <div class="section white-background">
-        <div class="section-wrapper about-meal-box">
-            <div class="fake-table">
-                <div class="fake-row">
-                    <div class="fake-cell about-img mobile-hide">
-                        <img src="assets/img/home_about.jpg" alt="Eat. Energize.">
-                    </div>
-                    <div class="fake-cell">
-                        <h2>Eat. Energize.</h2>
+    <style>
+        .twitter-section {
+            display: none;
+        }
+    </style>
+    <div class="section white-background faq-section">
+        <div class="section-wrapper">
+            <h2>Guests&#39; Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="paragraph">
+                    <span class="paragraph-heading">Guest: What comes in my Meal Box?</span>
+                    <b>Freshii:</b> You will receive three meals and two snacks each day. Meal Boxes are designed by a certified
+                    nutritionist and customized to meet specific nutritional requirements. </div>
 
-                        <div class="paragraph">
-                            The Freshii Meal Box is your one-stop shop to a full day of healthy eating. It is a meal plan service that eliminates shopping,
-                            chopping, cooking and cleaning so that you can get on with your busy lifestyle. Every box includes
-                            breakfast, lunch, dinner and two snacks. </div>
+                <div class="paragraph">
+                    <span class="paragraph-heading">Guest: What are the benefits of my Meal Box? </span>
+                    <b>Freshii:</b> The Meal Box program is built to meet specific nutritional requirements and to help you
+                    achieve your goals. Results will vary based on weight, metabolism, age and activity level. </div>
 
-                        <div class="paragraph">
-                            Choose from a 1, 3, 5 or 30 day program tailored to suit your dietary mission: bulking up, slimming down, eating clean or
-                            gluten-free. </div>
-                    </div>
-                </div>
+                <div class="paragraph">
+                    <span class="paragraph-heading">Guest: Am I allowed to make modifications to my Meal Box?</span>
+                    <b>Freshii:</b> It is recommended that you stick to the daily options provided in order to experience best
+                    results. However, minor modifications are allowed. Freshii is happy to accommodate dietary preferences
+                    and allergies. </div>
+
+                <div class="paragraph">
+                    <span class="paragraph-heading">Guest: Where can I find the nutrition information for my Meal Box?</span>
+                    <b>Freshii:</b> Email
+                    <a href="mailto:mealbox@freshii.com">mealbox@freshii.com</a> and a certified nutritionist will be in touch within 24 hours. </div>
+
+                <div class="paragraph">
+                    <span class="paragraph-heading">Guest: When do I pick up my Meal Box?</span>
+                    <b>Freshii:</b> Meal Boxes are to be picked up each evening and consumed the following day. Meals and snacks
+                    should be consumed within 24 hours of receiving your box. </div>
+
+                <div class="paragraph">
+                    <span class="paragraph-heading">Guest: Can my Meal Box be delivered?</span>
+                    <b>Freshii:</b> Meal Boxes can be delivered if within a specific delivery zone. Inquire about delivery with
+                    your local Freshii when you place your order. </div>
+
+                <div class="paragraph">
+                    <span class="paragraph-heading">Guest: Can I combine two different Meal Boxes?</span>
+                    <b>Freshii:</b> You will have the option to combine two different Meal Boxes if participating in the 30-day
+                    program. For example, you can choose to combine the Slim Meal Box and Gluten-Free Meal Box and select
+                    from the six daily options each week. Need advice? Email
+                    <a href="mailto:mealbox@freshii.com">mealbox@freshii.com</a> and a Freshii Certified Nutritionist will recommend a combination of Boxes that
+                    is best for you based on your health goals and dietary requirements. </div>
             </div>
         </div>
     </div>
@@ -148,7 +167,7 @@
                         <div class="mealbox-description">
                             Designed for the everyday athlete, this box provides the optimal macronutrient balance to fuel high performance workouts
                             and build muscle. Meals and snacks are high in calories, protein, and complex carbohydrates.
-                            </div>
+                        </div>
                         <a href="new-order.html" class="order-button">
                             <div class="order-button-content">
                                 View Bulk Box </div>
@@ -192,12 +211,11 @@
         <h2>Be in the know</h2>
         <div class="paragraph" style="margin-bottom:15px;">
             Sign up to get meal planning hacks, exclusive offers and more. </div>
-        <script type="text/javascript" src="https://form.jotform.com/jsform/62095465171255"></script>
     </div>
 
     <div class="footer-section social-section white-background">
         <div class="footer-social">
-            <a href="#" target="_blank">
+            <a href="http://instagram.com/freshii" target="_blank">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -205,7 +223,7 @@
             </a>
         </div>
         <div class="footer-social">
-            <a href="#" target="_blank">
+            <a href="https://twitter.com/freshii" target="_blank">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -213,7 +231,7 @@
             </a>
         </div>
         <div class="footer-social">
-            <a href="#" target="_blank">
+            <a href="https://www.facebook.com/freshii" target="_blank">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -225,10 +243,6 @@
     <div class="footer-section big-meal-box white-background">
         #freshiimealbox
     </div>
-
-    <script src="https://www.freshii.com/mealbox/js/jquery.min.js" type="text/javascript"></script>
-	<script src="https://www.freshii.com/mealbox/js/order.js" type="text/javascript"></script>
-	<script src="https://www.freshii.com/mealbox/js/script.js" type="text/javascript"></script>
 </body>
 
 </html>

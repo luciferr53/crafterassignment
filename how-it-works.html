@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<!-- new-order.html\?([a-z])+=([a-z])+ -->
+<html>
+
 <head>
+    <title>Freshii Meal Box</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/normalize.css" type="text/css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <title>Freshii Meal Box</title>
+
 </head>
 
 <body>
@@ -23,14 +24,14 @@
                 </a>
             </div>
             <div class="navigation-item right">
-                <a class="nav-works " href="how-it-works.html">HOW IT WORKS</a>
+                <a class="nav-works selected" href="how-it-works.html">HOW IT WORKS</a>
                 <a class="nav-boxes " href="new-order.html">BOXES</a>
                 <a class="nav-faq " href="faq.html">F.A.Q</a>
                 <a class="nav-fitness " href="fitness-pros.html">FITNESS PROS</a>
                 <a class="nav-contact " href="contact.html">CONTACT</a>
             </div>
             <div class="mobile-nav">
-                <a class="nav-works " href="how-it-works.html">HOW IT WORKS</a>
+                <a class="nav-works selected" href="how-it-works.html">HOW IT WORKS</a>
                 <a class="nav-boxes-clean hover-green  " href="new-order.html">CLEAN BOX</a>
                 <a class="nav-boxes-slim hover-yellow " href="new-order.html">SLIM BOX</a>
                 <a class="nav-boxes-bulk hover-blue " href="new-order.html">BULK BOX</a>
@@ -51,34 +52,67 @@
             </a>
         </div>
     </div>
-    <div class="home-banner">
-        <img src="assets/img/home_banner.jpg" alt="3 Meals. 2 Snacks. 1 Box.">
-        <div class="caption">
-            3 Meals.
-            <br>2 Snacks.
-            <br>1 Box. </div>
-        <div class="faded"></div>
-    </div>
-    <div class="section white-background">
-        <div class="section-wrapper about-meal-box">
+    <style>
+        .twitter-section {
+            display: none;
+        }
+    </style>
+    <div class="section white-background how-it-works-section">
+        <div class="section-wrapper">
             <div class="fake-table">
                 <div class="fake-row">
-                    <div class="fake-cell about-img mobile-hide">
-                        <img src="assets/img/home_about.jpg" alt="Eat. Energize.">
+                    <div class="fake-cell about-how-it-works">
+                        <h2 style="margin-bottom:15px;">How It Works</h2>
+
+                        <div class="paragraph">
+                            <span class="paragraph-heading">Step 1</span>
+                            Choose the program that is best for you. </div>
+
+                        <div class="paragraph">
+                            <span class="paragraph-heading">Step 2</span>
+                            Sign up for the Freshii Meal Box by bringing a completed
+                            <a href="pdfs/Freshii_Meal_Box_Menu.pdf" target="_blank">order form</a> to your local Freshii.
+                            <span class="paragraph-breaker">Email
+                                <a href="mailto:mealbox@freshii.com">mealbox@freshii.com</a> with questions.</span>
+                        </div>
+
+                        <div class="paragraph">
+                            <span class="paragraph-heading">Step 3</span>
+                            Pick up your Meal Box once daily. Interested in home or office delivery?
+                            <span class="paragraph-breaker">Inquire with your local Freshii.</span>
+                        </div>
+
+                        <div class="paragraph">
+                            <span class="paragraph-heading">Step 4</span>
+                            Eat. Energize. with your Freshii Meal Box! </div>
                     </div>
-                    <div class="fake-cell">
-                        <h2>Eat. Energize.</h2>
-
-                        <div class="paragraph">
-                            The Freshii Meal Box is your one-stop shop to a full day of healthy eating. It is a meal plan service that eliminates shopping,
-                            chopping, cooking and cleaning so that you can get on with your busy lifestyle. Every box includes
-                            breakfast, lunch, dinner and two snacks. </div>
-
-                        <div class="paragraph">
-                            Choose from a 1, 3, 5 or 30 day program tailored to suit your dietary mission: bulking up, slimming down, eating clean or
-                            gluten-free. </div>
+                    <div class="fake-cell how-it-works-img mobile-hide">
+                        <img src="assets/img/how-it-works_about.jpg" alt="Eat. Energize. with your Freshii Meal Box">
                     </div>
                 </div>
+            </div>
+            <div class="program-area">
+                <h2>Choose a Program that is Best for You</h2>
+                <ul>
+                    <li>
+                        <img src="assets/img/1-day.png" alt="1 Day Program"> $40.00 </li>
+                    <li>
+                        <img src="assets/img/3-days.png" alt="3 Day Program"> $118.00 </li>
+                    <li>
+                        <img src="assets/img/5-days.png" alt="5 Day Program"> $190.00
+                        <br>
+                        <span class="best-value">Best Value</span>
+                    </li>
+                    <li>
+                        <img src="assets/img/30-days.png" alt="30 Day Program"> $1050.00 </li>
+                </ul>
+            </div>
+            <div class="video-area">
+                <h2 style="margin-bottom:20px;"></h2>
+
+                <video id="video" controls poster="assets/img/video-poster.jpg">
+                    <source src="https://www.freshii.com/mealbox/images/how-it-works-video.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
@@ -94,7 +128,7 @@
                             <div>
                                 Eat Clean </div>
                             <!-- <div>
-                                                                </div> -->
+															</div> -->
                         </div>
                         <div class="view-mealbox" style="display: none;">
                             <a href="javascript:void(0);">View Clean Box</a>
@@ -117,7 +151,7 @@
                             <div>
                                 Lose Weight </div>
                             <!-- <div>
-                                                                </div> -->
+															</div> -->
                         </div>
                         <div class="view-mealbox" style="display: none;">
                             <a href="javascript:void(0);">View Slim Box</a>
@@ -140,7 +174,7 @@
                             <div>
                                 Build Muscle </div>
                             <!-- <div>
-                                                                </div> -->
+															</div> -->
                         </div>
                         <div class="view-mealbox" style="display: none;">
                             <a href="javascript:void(0);">View Bulk Box</a>
@@ -148,7 +182,7 @@
                         <div class="mealbox-description">
                             Designed for the everyday athlete, this box provides the optimal macronutrient balance to fuel high performance workouts
                             and build muscle. Meals and snacks are high in calories, protein, and complex carbohydrates.
-                            </div>
+                        </div>
                         <a href="new-order.html" class="order-button">
                             <div class="order-button-content">
                                 View Bulk Box </div>
@@ -164,7 +198,7 @@
                             <div>
                                 Eliminate Wheat & Gluten </div>
                             <!-- <div>
-                                                                </div> -->
+															</div> -->
                         </div>
                         <div class="view-mealbox" style="display: none;">
                             <a href="javascript:void(0);">View Gluten-Free Box</a>
@@ -193,6 +227,7 @@
         <div class="paragraph" style="margin-bottom:15px;">
             Sign up to get meal planning hacks, exclusive offers and more. </div>
         <script type="text/javascript" src="https://form.jotform.com/jsform/62095465171255"></script>
+        <!-- <div id="find_my_eblast_widget_123288"></div> -->
     </div>
 
     <div class="footer-section social-section white-background">
@@ -225,10 +260,6 @@
     <div class="footer-section big-meal-box white-background">
         #freshiimealbox
     </div>
-
-    <script src="https://www.freshii.com/mealbox/js/jquery.min.js" type="text/javascript"></script>
-	<script src="https://www.freshii.com/mealbox/js/order.js" type="text/javascript"></script>
-	<script src="https://www.freshii.com/mealbox/js/script.js" type="text/javascript"></script>
 </body>
 
 </html>
