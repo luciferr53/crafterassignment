@@ -16,18 +16,19 @@
 <body>
     <div class="top-banner">
         <div class="navigation-wrapper">
-            <div class="navigation-item">
+            <div class="navigation-item">s
                 <a class="logo" href="index.html">
                     <img class="desktop" src="assets/img/logo_freshii-mealbox-desktop.png" alt="Freshii Mealbox">
-                    <img class="mobile" src="assets/img/logo_freshii-mealbox-mobile.png" alt="Freshii Mealbox" style="display: none;">
+                    <img class="mobile" src="assets/img/logo_freshii-mealbox-mobile.png" alt="Freshii Mealbox"
+                        style="display: none;">
                 </a>
             </div>
             <div class="navigation-item right">
                 <a class="nav-works " href="how-it-works.html">HOW IT WORKS</a>
                 <a class="nav-boxes " href="new-order.html">BOXES</a>
                 <a class="nav-faq " href="faq.html">F.A.Q</a>
-                <a class="nav-fitness selected" href="fitness-pros.html">FITNESS PROS</a>
-                <a class="nav-contact " href="contact.html">CONTACT</a>
+                <a class="nav-fitness " href="fitness-pros.html">FITNESS PROS</a>
+                <a class="nav-contact selected" href="contact.html">CONTACT</a>
             </div>
             <div class="mobile-nav">
                 <a class="nav-works " href="how-it-works.html">HOW IT WORKS</a>
@@ -36,8 +37,8 @@
                 <a class="nav-boxes-bulk hover-blue " href="new-order.html">BULK BOX</a>
                 <a class="nav-boxes-gluten hover-purple " href="new-order.html">GLUTEN-FREE BOX</a>
                 <a class="nav-faq " href="faq.html">F.A.Q</a>
-                <a class="nav-fitness selected" href="fitness-pros.html">FITNESS PROS</a>
-                <a class="nav-contact " href="contact.html">CONTACT</a>
+                <a class="nav-fitness " href="fitness-pros.html">FITNESS PROS</a>
+                <a class="nav-contact selected" href="contact.html">CONTACT</a>
             </div>
         </div>
         <div class="mobile-nav-btn">
@@ -51,7 +52,7 @@
             </a>
         </div>
     </div>
-    <style>
+    <!-- <style>
         .footer-boxes {
             display: none;
         }
@@ -59,91 +60,60 @@
         .twitter-section {
             display: none;
         }
-    </style>
-    <div class="section white-background fitness-section">
-        <div class="section-wrapper">
-            <h2 style="margin-bottom:15px;">Fitness Pros</h2>
-
-            <div class="paragraph">
-                Are you a personal trainer, coach, chiropractor or health and wellness professional? We want to give you a tool that will
-                help your clients fulfill their goals, and offer you prizes along the way. Achieving optimal health includes
-                regular exercise and a proper diet. The Freshii Meal Box is designed to provide healthy food that meets your
-                clients&#39; specific dietary goals. We think you’d be the perfect ambassador! </div>
-            <div class="clear-fix" style="height:25px;"></div>
-
-            <h2 style="text-align:center;">Here&#39;s How It Works</h2>
-
-            <div class="how-it-works-pros">
-                <ul>
-                    <li>
-                        <img src="assets/img/mealbox.png" alt="Meal Box Icon"> You suggest the Meal Box to your clients </li>
-                    <!--
-					-->
-                    <li class="arrows">
-                        <img src="assets/img/arrow.png" alt="">
-                    </li>
-                    <!--
-					-->
-                    <li>
-                        <img src="assets/img/cart.png" alt="Shopping Cart Icon"> They make the purchase </li>
-                    <!--
-					-->
-                    <li class="arrows">
-                        <img src="assets/img/arrow.png" alt="">
-                    </li>
-                    <!--
-					-->
-                    <li>
-                        <img src="assets/img/prizes.png" alt="Prizes Icon"> We give you cool stuff and cash prizes. </li>
-                </ul>
+    </style> -->
+    <div class="section contact-section white-background">
+        <div class="section-wrapper contact-wrapper" style="padding:0 30px;">
+            <div class="left-side">
+                <h2>Contact Us</h2>
+                <form action="" class="contact-form" id="contactForm" data-recipient="info@freshii.com,mealbox@freshii.com,andie@freshii.com,anurag@freshii.com,mia@freshii.com"
+                    data-formtype="Freshii - Mealbox Contact Request">
+                    <div class="row">
+                        <label>
+                            Name
+                            <span class="required">*</span>
+                            <span class="required">*</span>
+                        </label>
+                        <div>
+                            <input type="text" placeholder="Fist Name, Last Name" data-name="Full Name" data-required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label>
+                            Email
+                            <span class="required">*</span>
+                        </label>
+                        <div>
+                            <input type="text" placeholder="youremail@mail.com" data-name="Email Address" data-required data-email>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label>
+                            Message</label>
+                        <div>
+                            <textarea placeholder="Write your message / questions here." data-name="Message / Comment"></textarea>
+                        </div>
+                        <div class="green-button">
+                            <div class="green-button-content" onclick="submitReservation();">
+                                Submit </div>
+                        </div>
+                    </div>
+                    <div class="row right">
+                    </div>
+                </form>
             </div>
+            <div class="right-side">
+                <img src="assets/img/contact-box.jpg" alt="">
 
-            <h2 style="text-align:center;margin-bottom:25px;">It&#39;s that simple. Interested in learning more?
-                <br>Sign up here, and we&#39;ll get in touch with you:</h2>
+                <h2 class="blue">The Meal Box makes healthy food preparation easy.</h2>
 
-            <form action="javascript:void(0)" class="fitness-form" id="fitnessForm" data-recipient="fenton.jagdeo@freshii.com" data-formtype="Freshii - Mealbox Fitness Pros Request">
-                <div class="row">
-                    <label>
-                        Name
-                        <span class="required">*</span>
-                    </label>
-                    <div>
-                        <input type="text" placeholder="First Name, Last Name" data-name="Full Name" data-required="Please enter your full name">
-                    </div>
-                </div>
-                <div class="row">
-                    <label>
-                        Email
-                        <span class="required">*</span>
-                    </label>
-                    <div>
-                        <input type="text" placeholder="youremail@mail.com" data-name="Email Address" data-required="Please enter your email address"
-                            data-email="Please enter a valid email address">
-                    </div>
-                </div>
-                <div class="row">
-                    <label>
-                        Phone Number
-                        <span class="required">*</span>
-                    </label>
-                    <div>
-                        <input type="text" placeholder="Your best contact phone number" data-name="Phone Number" data-required="Please enter your phone number">
-                    </div>
-                </div>
-                <div class="row">
-                    <label>
-                        Service Affiliation </label>
-                    <div>
-                        <input type="text" placeholder="Name of your organization" data-name="Service Affiliation">
-                    </div>
-                    <div class="green-button">
-                        <div class="green-button-content" onclick="submit();">
-                            Submit </div>
-                    </div>
-                </div>
-            </form>
+                <h2 class="blue">Would your organization like to partner with us?</h2>
+
+                <h2 class="blue">Let&#39;s chat.</h2>
+            </div>
+            <div class="clear-fix"></div>
         </div>
     </div>
+    
     <div class="section white-background footer-boxes">
         <div class="wrapper">
             <div class="mealbox-table clear-fix">
@@ -151,23 +121,20 @@
                     <img src="assets/img/clean-box.jpg" class="wide-image" alt="Clean Box">
                     <div class="box green-box">
                         <div class="h1">
-                            Clean Box 
-                        </div>
+                            Clean Box</div>
                         <div class="subheader">
                             <div>
-                                Eat Clean 
-                            </div>
+                                Eat Clean </div>
                         </div>
                         <div class="view-mealbox" style="display: none;">
                             <a href="#">View Clean Box</a>
                         </div>
                         <div class="mealbox-description">
                             Designed for mindful eaters or those looking to clean up their diet. Meals and snacks are made up of whole foods that are
-                            nutrient dense and minimally processed. </div>
+                            nutrient dense and minimally processed.</div>
                         <a href="new-order.html" class="order-button">
                             <div class="order-button-content">
-                                View Clean Box 
-                            </div>
+                                View Clean Box </div>
                         </a>
                     </div>
                 </div>
@@ -175,19 +142,18 @@
                     <img src="assets/img/slim-box-1.jpg" class="wide-image" alt="Slim Box">
                     <div class="box yellow-box">
                         <div class="h1">
-                            Slim Box 
-                        </div>
+                            Slim Box</div>
                         <div class="subheader">
                             <div>
-                                Lose Weight 
+                                Lose Weight
                             </div>
                         </div>
                         <div class="view-mealbox" style="display: none;">
-                            <a href="javascript:void(0);">View Slim Box</a>
+                            <a href="#">View Slim Box</a>
                         </div>
                         <div class="mealbox-description">
                             Designed for maximum weight loss with minimal deprivation. Meals and snacks focus on lean protein and high fiber foods that
-                            are low in calories and carbohydrates. </div>
+                            are low in calories and carbohydrates.</div>
                         <a href="new-order.html" class="order-button">
                             <div class="order-button-content">
                                 View Slim Box </div>
@@ -198,18 +164,17 @@
                     <img src="assets/img/bulk-box.jpg" class="wide-image" alt="Bulk Box">
                     <div class="box blue-box">
                         <div class="h1">
-                            Bulk Box </div>
+                            Bulk Box</div>
                         <div class="subheader">
                             <div>
                                 Build Muscle </div>
-                            </div>
+                        </div>
                         <div class="view-mealbox" style="display: none;">
-                            <a href="javascript:void(0);">View Bulk Box</a>
+                            <a href="#">View Bulk Box</a>
                         </div>
                         <div class="mealbox-description">
                             Designed for the everyday athlete, this box provides the optimal macronutrient balance to fuel high performance workouts
-                            and build muscle. Meals and snacks are high in calories, protein, and complex carbohydrates.
-                        </div>
+                            and build muscle. Meals and snacks are high in calories, protein, and complex carbohydrates.</div>
                         <a href="new-order.html" class="order-button">
                             <div class="order-button-content">
                                 View Bulk Box </div>
@@ -220,17 +185,17 @@
                     <img src="assets/img/gluten-free-box.jpg" class="wide-image" alt="Gluten-Free Box">
                     <div class="box purple-box">
                         <div class="h1">
-                            Gluten-Free Box </div>
+                            Gluten-Free Box</div>
                         <div class="subheader">
                             <div>
                                 Eliminate Wheat & Gluten </div>
                         </div>
                         <div class="view-mealbox" style="display: none;">
-                            <a href="javascript:void(0);">View Gluten-Free Box</a>
+                            <a href="#">View Gluten-Free Box</a>
                         </div>
                         <div class="mealbox-description">
                             Designed for those who are gluten intolerant. Meals and snacks rely on wheat and gluten-free ingredients, while providing
-                            the appropriate balance of macronutrients to fuel your busy day. </div>
+                            the appropriate balance of macronutrients to fuel your busy day.</div>
                         <a href="new-order.html" class="order-button">
                             <div class="order-button-content">
                                 View Gluten-Free Box </div>
@@ -250,12 +215,13 @@
     <div class="footer-section eblast-section white-background">
         <h2>Be in the know</h2>
         <div class="paragraph" style="margin-bottom:15px;">
-            Sign up to get meal planning hacks, exclusive offers and more. </div>
+            Sign up to get meal planning hacks, exclusive offers and more.
+        </div>
     </div>
 
     <div class="footer-section social-section white-background">
         <div class="footer-social">
-            <a href="#" target="_blank">
+            <a href="" target="_blank">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
@@ -263,7 +229,7 @@
             </a>
         </div>
         <div class="footer-social">
-            <a href="#" target="_blank">
+            <a href="" target="_blank">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -271,7 +237,7 @@
             </a>
         </div>
         <div class="footer-social">
-            <a href="#" target="_blank">
+            <a href="" target="_blank">
                 <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x"></i>
                     <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
